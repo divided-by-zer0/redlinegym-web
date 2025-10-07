@@ -1,5 +1,3 @@
-import redLineLogoImage from 'figma:asset/126c4900c150f13a0f8d30b95ec4f03cd845aaa2.png';
-
 interface RedLineLogoProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -16,7 +14,7 @@ export function RedLineLogo({ className = '', size = 'md' }: RedLineLogoProps) {
   return (
     <div className={`flex items-center justify-left ${className}`}>
       <img 
-        src={redLineLogoImage} 
+        src={"/126c4900c150f13a0f8d30b95ec4f03cd845aaa2.png"} 
         alt="Red Line Gym Logo" 
         className={`${sizeClasses[size]} w-auto object-contain`}
       />

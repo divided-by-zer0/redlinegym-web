@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src='src/assets/RedlineBackground.jpg'
+          src='/RedlineBackground.jpg'
           alt="Modern gym interior"
           className="w-full h-full object-cover"
         />

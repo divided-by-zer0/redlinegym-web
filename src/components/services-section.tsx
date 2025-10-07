@@ -85,7 +85,7 @@ export function ServicesSection() {
           
           <div className="relative">
             <ImageWithFallback
-              src="src/assets/540507697_1350943593702931_7719395841914905384_n.jpg"
+              src="/540507697_1350943593702931_7719395841914905384_n.jpg"
               alt="Fitness training equipment"
               className="w-full h-80 object-cover rounded-lg"
             />
