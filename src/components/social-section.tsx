@@ -43,7 +43,7 @@ export function SocialSection() {
           })}
         </div>
 
-        <div className="mt-12 text-center">
+      {/*  <div className="mt-12 text-center">
           <Card className="bg-secondary border-border inline-block">
             <CardContent className="p-6">
               <h3 className="text-white mb-2">Mantente Actualizado</h3>
@@ -62,7 +62,7 @@ export function SocialSection() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

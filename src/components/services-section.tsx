@@ -27,7 +27,7 @@ export function ServicesSection() {
   ];
 
   return (
-    <section className="py-16 px-4 bg-card">
+    <section className="py-16 px-4 bg-card" id='info'>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl text-white mb-4">Qué Ofrecemos</h2>
@@ -69,7 +69,7 @@ export function ServicesSection() {
                 Tecnología integrada con app exclusiva
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 rounded-full mr-3" style={{ backgroundColor: '#BEC043' }}></span>
+                <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                 Análisis corporal con bioimpedancia
               </li>
               <li className="flex items-center">
@@ -77,7 +77,7 @@ export function ServicesSection() {
                 Seguridad garantizada con DEA en cada sede
               </li>
               <li className="flex items-center">
-                <span className="w-2 h-2 rounded-full mr-3" style={{ backgroundColor: '#65122E' }}></span>
+                <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                 Personal capacitado en primeros auxilios
               </li>
             </ul>

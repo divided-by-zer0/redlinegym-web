@@ -12,7 +12,7 @@ export function Footer() {
               <RedLineLogo size="sm" />
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Tu destino fitness premier. Proporcionamos las herramientas, conocimiento y
+              Tu destino fitness. Proporcionamos las herramientas, conocimiento y
               comunidad que necesitas para alcanzar tus objetivos de fitness y transformar tu vida.
             </p>
             <p className="text-sm text-gray-500">
